@@ -666,6 +666,16 @@ select {
     font-size: 0.8rem;
 }
 
+.contact-item a {
+    display: block;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.contact-item a:hover {
+    color: white;
+}
+
 .contact-form-wrapper {
     background: white;
     color: var(--black);

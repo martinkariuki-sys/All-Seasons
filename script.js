@@ -50,21 +50,6 @@ if (yearElement) {
 
 
 /* =========================
-   PRODUCT SELECTION
-   ========================= */
-
-function selectProduct(productName) {
-
-    const productSelect = document.getElementById("product");
-
-    if (!productSelect) return;
-
-    productSelect.value = productName;
-
-}
-
-
-/* =========================
    CONTACT FORM
    ========================= */
 
@@ -114,6 +99,15 @@ function createWhatsAppUrl(message) {
 
     return `https://wa.me${recipient}?text=${encodeURIComponent(message)}`;
 }
+
+document.querySelectorAll(".order-link[data-product]").forEach(link => {
+    const productName = link.dataset.product;
+    const message = `Hello All Seasons Shoe Dealers. I would like to order ${productName}. Please share available sizes and delivery options.`;
+
+    link.href = createWhatsAppUrl(message);
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+});
 
 const whatsappButton = document.getElementById("whatsappButton");
 

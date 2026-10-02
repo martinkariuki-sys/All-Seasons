@@ -10,8 +10,7 @@ Open `index.html` in a browser, or serve this folder with:
 python3 -m http.server 8000
 ```
 
-The contact form opens a WhatsApp message with the customer's enquiry. To direct
-messages to the shop automatically, set the `data-whatsapp-number` value on the
-`<body>` element in `index.html` to the international number without `+` or
-spaces (for example, `254712345678`). If it is blank, WhatsApp opens its
-recipient chooser with the message prefilled.
+Product order links, the contact form, and the floating WhatsApp button open a
+prefilled WhatsApp message addressed to the shop at `254758687589`. The number
+is configured on the `<body>` element in `index.html` in international format
+without `+` or spaces.
