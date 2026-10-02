@@ -1,0 +1,897 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="All Seasons Shoe Dealers - Quality pure leather shoes, boots and loafers in Githunguri, Utawala and Kamulu Stage 26.">
+
+    <title>All Seasons Shoe Dealers | Genuine Leather Shoes</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body data-whatsapp-number="">
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">AS</span>
+                <span>
+                    <strong>ALL SEASONS</strong>
+                    <small>SHOE DEALERS</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-controls="navbar" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home">Home</a>
+                <a href="#products">Our Shoes</a>
+                <a href="#about">About Us</a>
+                <a href="#locations">Locations</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                        🇰🇪 Proudly Made in Kenya
+                    </span>
+
+                    <h1>
+                        Genuine Leather.
+                        <span>Built to Last.</span>
+                    </h1>
+
+                    <p>
+                        Quality handcrafted leather shoes and boots made
+                        from scratch for work, school, security and everyday style.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">
+                            Shop Our Shoes
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Us
+                        </a>
+                    </div>
+
+                    <div class="hero-features">
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Pure Leather</span>
+                        </div>
+
+                        <div>
+                            <strong>Made</strong>
+                            <span>From Scratch</span>
+                        </div>
+
+                        <div>
+                            <strong>Quality</strong>
+                            <span>Craftsmanship</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products-section" id="products">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">OUR COLLECTION</span>
+
+                    <h2>Quality Shoes For Every Season</h2>
+
+                    <p>
+                        Discover our collection of genuine leather shoes,
+                        handcrafted with attention to detail and built for comfort.
+                    </p>
+
+                </div>
+
+
+                <div class="products-grid" id="productsGrid">
+
+                    <!-- PRODUCT 1 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85"
+                                alt="Combat Army Boots"
+                            >
+
+                            <span class="product-tag">POPULAR</span>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                BOOTS
+                            </span>
+
+                            <h3>Combat / Army Boots</h3>
+
+                            <p>
+                                Strong and durable leather boots designed
+                                for demanding work and outdoor use.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    KSh 2,800
+                                </span>
+
+                                <a href="#contact"
+                                   class="order-link"
+                                   onclick="selectProduct('Combat / Army Boots')">
+                                    Order →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=900&q=85"
+                                alt="Official Leather Shoes"
+                            >
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                OFFICIAL
+                            </span>
+
+                            <h3>Official Leather Shoes</h3>
+
+                            <p>
+                                Smart, comfortable and professional leather
+                                shoes for office, business and formal occasions.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    KSh 1,800
+                                </span>
+
+                                <a href="#contact"
+                                   class="order-link"
+                                   onclick="selectProduct('Official Leather Shoes')">
+                                    Order →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=900&q=85"
+                                alt="Leather Loafers"
+                            >
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                CASUAL
+                            </span>
+
+                            <h3>Leather Loafers</h3>
+
+                            <p>
+                                Stylish genuine leather loafers designed
+                                for comfort and easy everyday wear.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    KSh 1,500
+                                </span>
+
+                                <a href="#contact"
+                                   class="order-link"
+                                   onclick="selectProduct('Leather Loafers')">
+                                    Order →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 4 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1638247025967-b4e38f787b76?auto=format&fit=crop&w=900&q=85"
+                                alt="Chelsea Boots"
+                            >
+
+                            <span class="product-tag new">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                BOOTS
+                            </span>
+
+                            <h3>Chelsea Boots</h3>
+
+                            <p>
+                                Classic leather Chelsea boots combining
+                                smart style, comfort and durability.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    KSh 1,999
+                                </span>
+
+                                <a href="#contact"
+                                   class="order-link"
+                                   onclick="selectProduct('Chelsea Boots')">
+                                    Order →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 5 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1554130848-3c1e8e4d2b7b?auto=format&fit=crop&w=900&q=85"
+                                alt="Back to School Boots"
+                            >
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                SCHOOL
+                            </span>
+
+                            <h3>Back-to-School Boots</h3>
+
+                            <p>
+                                Durable school boots made to handle everyday
+                                school use while keeping students comfortable.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    From KSh 1,500
+                                </span>
+
+                                <a href="#contact"
+                                   class="order-link"
+                                   onclick="selectProduct('Back-to-School Boots')">
+                                    Order →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CUSTOM PRODUCT CARD -->
+
+                    <article class="product-card custom-card">
+
+                        <div class="custom-icon">
+                            👞
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                CUSTOM
+                            </span>
+
+                            <h3>Need Something Different?</h3>
+
+                            <p>
+                                Talk to us about your preferred style,
+                                size or custom leather shoe requirements.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <span class="price">
+                                    Ask Us
+                                </span>
+
+                                          <a href="#contact"
+                                              class="order-link"
+                                              onclick="selectProduct('Custom Order')">
+                                    Enquire →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY US ================= -->
+
+        <section class="why-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">WHY ALL SEASONS?</span>
+
+                    <h2>Made With Purpose</h2>
+
+                </div>
+
+
+                <div class="why-grid">
+
+                    <div class="why-card">
+
+                        <div class="why-icon">🪡</div>
+
+                        <h3>Made From Scratch</h3>
+
+                        <p>
+                            We make our shoes ourselves, from the selection
+                            of leather to the finishing touches.
+                        </p>
+
+                    </div>
+
+
+                    <div class="why-card">
+
+                        <div class="why-icon">🥾</div>
+
+                        <h3>Built To Last</h3>
+
+                        <p>
+                            Our shoes are designed with durability in mind,
+                            making them suitable for everyday use.
+                        </p>
+
+                    </div>
+
+
+                    <div class="why-card">
+
+                        <div class="why-icon">💯</div>
+
+                        <h3>Pure Leather</h3>
+
+                        <p>
+                            We specialize in genuine leather shoes,
+                            giving you quality you can see and feel.
+                        </p>
+
+                    </div>
+
+
+                    <div class="why-card">
+
+                        <div class="why-icon">🇰🇪</div>
+
+                        <h3>Locally Crafted</h3>
+
+                        <p>
+                            Supporting local craftsmanship and Kenyan
+                            shoemaking.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <div class="about-image-box">
+                        <span>ALL<br>SEASONS</span>
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        ABOUT ALL SEASONS
+                    </span>
+
+                    <h2>Shoes Made With Skill, Care & Experience</h2>
+
+                    <p>
+                        At All Seasons Shoe Dealers, we make and sell
+                        quality pure leather shoes. Our shoes are made
+                        from scratch with attention to durability,
+                        comfort and style.
+                    </p>
+
+                    <p>
+                        From strong combat boots to official leather shoes,
+                        loafers, Chelsea boots and school shoes, our goal is
+                        simple — to provide quality footwear at fair prices.
+                    </p>
+
+                    <div class="about-stats">
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Leather Focus</span>
+                        </div>
+
+                        <div>
+                            <strong>5+</strong>
+                            <span>Popular Styles</span>
+                        </div>
+
+                        <div>
+                            <strong>3</strong>
+                            <span>Locations</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LOCATIONS ================= -->
+
+        <section class="locations-section" id="locations">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        FIND US
+                    </span>
+
+                    <h2>Our Locations</h2>
+
+                    <p>
+                        Visit us or contact us to find the nearest
+                        All Seasons Shoe Dealers location.
+                    </p>
+
+                </div>
+
+
+                <div class="locations-grid">
+
+                    <div class="location-card">
+
+                        <div class="location-icon">
+                            📍
+                        </div>
+
+                        <h3>Githunguri</h3>
+
+                        <p>
+                            Githunguri area
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Githunguri%2C%20Kenya"
+                           target="_blank"
+                           rel="noopener">
+                            Get Directions →
+                        </a>
+
+                    </div>
+
+
+                    <div class="location-card">
+
+                        <div class="location-icon">
+                            📍
+                        </div>
+
+                        <h3>Utawala</h3>
+
+                        <p>
+                            Utawala, Nairobi
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Utawala%2C%20Nairobi%2C%20Kenya"
+                           target="_blank"
+                           rel="noopener">
+                            Get Directions →
+                        </a>
+
+                    </div>
+
+
+                    <div class="location-card">
+
+                        <div class="location-icon">
+                            📍
+                        </div>
+
+                        <h3>Kamulu Stage 26</h3>
+
+                        <p>
+                            Kamulu Stage 26
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Kamulu%20Stage%2026%2C%20Kenya"
+                           target="_blank"
+                           rel="noopener">
+                            Get Directions →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+
+                    <span class="section-label">
+                        GET IN TOUCH
+                    </span>
+
+                    <h2>Ready To Get Your Pair?</h2>
+
+                    <p>
+                        Contact All Seasons Shoe Dealers to ask about
+                        sizes, availability, prices, custom orders
+                        or delivery.
+                    </p>
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+                            <span>📞</span>
+                            <div>
+                                <strong>WhatsApp Enquiries</strong>
+                                <p>Use the enquiry form or WhatsApp button to message us.</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <div>
+                                <strong>Locations</strong>
+                                <p>
+                                    Githunguri · Utawala · Kamulu Stage 26
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>🕒</span>
+                            <div>
+                                <strong>Opening Hours</strong>
+                                <p>Contact us for current opening hours</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-wrapper">
+
+                    <form id="contactForm">
+
+                        <h3>Send Us An Enquiry</h3>
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="07XX XXX XXX"
+                            required
+                        >
+
+
+                        <label for="product">
+                            Shoe You Are Interested In
+                        </label>
+
+                        <select id="product">
+
+                            <option value="">
+                                Select a shoe
+                            </option>
+
+                            <option value="Combat / Army Boots">
+                                Combat / Army Boots — KSh 2,800
+                            </option>
+
+                            <option value="Official Leather Shoes">
+                                Official Leather Shoes — KSh 1,800
+                            </option>
+
+                            <option value="Leather Loafers">
+                                Leather Loafers — KSh 1,500
+                            </option>
+
+                            <option value="Chelsea Boots">
+                                Chelsea Boots — KSh 1,999
+                            </option>
+
+                            <option value="Back-to-School Boots">
+                                Back-to-School Boots — From KSh 1,500
+                            </option>
+
+                            <option value="Custom Order">
+                                Custom Order
+                            </option>
+
+                        </select>
+
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="4"
+                            placeholder="Tell us your shoe size or what you need..."
+                        ></textarea>
+
+
+                        <button type="submit" class="btn btn-primary full-width">
+                            Send Enquiry
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <div class="logo footer-logo">
+
+                    <span class="logo-icon">AS</span>
+
+                    <span>
+                        <strong>ALL SEASONS</strong>
+                        <small>SHOE DEALERS</small>
+                    </span>
+
+                </div>
+
+                <p>
+                    Genuine leather shoes made from scratch.
+                    Quality footwear for every season.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="#home">Home</a>
+                <a href="#products">Our Shoes</a>
+                <a href="#about">About Us</a>
+                <a href="#locations">Locations</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Our Shoes</h4>
+
+                <a href="#products">Combat Boots</a>
+                <a href="#products">Official Shoes</a>
+                <a href="#products">Loafers</a>
+                <a href="#products">Chelsea Boots</a>
+                <a href="#products">School Boots</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Locations</h4>
+
+                <p>Githunguri</p>
+                <p>Utawala</p>
+                <p>Kamulu Stage 26</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © <span id="year"></span>
+                    All Seasons Shoe Dealers.
+                    All rights reserved.
+                </p>
+
+                <p>
+                    Quality Leather Footwear 🇰🇪
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- WhatsApp Floating Button -->
+
+    <a
+        href="https://wa.me/?text=Hello%20All%20Seasons%20Shoe%20Dealers"
+        class="whatsapp-button"
+        id="whatsappButton"
+        aria-label="Contact us on WhatsApp"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <span>💬</span>
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
